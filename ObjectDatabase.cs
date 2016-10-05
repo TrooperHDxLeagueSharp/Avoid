@@ -55,6 +55,12 @@ namespace Avoid
                         _avoidObjects.Add(new AvoidObject("Ziggs - Hexplosive Minefield (E)", "ZiggsE_red.troy", 50));
 #endif
                         break;
+
+                    case "Jhin":
+
+                        // E
+                        _avoidObjects.Add(new AvoidObject("Jhin - Captive Audience (E)", "jhintrap", 130, "JhinE"));
+                        break;
                 }
             }
         }
