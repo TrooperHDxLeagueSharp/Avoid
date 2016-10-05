@@ -40,6 +40,11 @@ namespace Avoid
                         _avoidObjects.Add(new AvoidObject("Nidalee - Bushwhack (W)", "Nidalee_Spear", 65, ""));
                         break;
 
+                    case "Jhin":
+                        // E
+                        _avoidObjects.Add(new AvoidObject("Jhin - Captive Audience (E)", "jhintrap", 130, "JhinE"));
+                        break;
+
                     case "Teemo":
 
                         // R
@@ -54,12 +59,6 @@ namespace Avoid
 #else
                         _avoidObjects.Add(new AvoidObject("Ziggs - Hexplosive Minefield (E)", "ZiggsE_red.troy", 50));
 #endif
-                        break;
-
-                    case "Jhin":
-
-                        // E
-                        _avoidObjects.Add(new AvoidObject("Jhin - Captive Audience (E)", "jhintrap", 130, "JhinE"));
                         break;
                 }
             }
