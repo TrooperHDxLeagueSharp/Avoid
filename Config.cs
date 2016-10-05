@@ -20,7 +20,7 @@ namespace Avoid
 
         static Config()
         {
-            Menu = new MenuWrapper("[Hellsing] Avoid", false, false);
+            Menu = new MenuWrapper("trooperhdx Avoid", false, false);
 
             var subMenu = Menu.MainMenu.AddSubMenu("Avoidable objects");
             foreach (var obj in ObjectDatabase.AvoidObjects)
