@@ -34,6 +34,12 @@ namespace Avoid
                         _avoidObjects.Add(new AvoidObject("Jinx - Flame Chompers! (E)", "jinxmine", 75, "JinxEMine"));
                         break;
 
+                    case "Shaco":
+
+                        // W
+                        _avoidObjects.Add(new AvoidObject("Shaco - Jack In The Box! (W)", "ShacoBox", 150, "JackInTheBox"));
+                        break;
+
                     case "Nidalee":
 
                         // W
@@ -54,11 +60,11 @@ namespace Avoid
                     case "Ziggs":
 
                         // E
-#if DEBUG
+
                         _avoidObjects.Add(new AvoidObject("Ziggs - Hexplosive Minefield (E)", "ZiggsE_green.troy", 50));
-#else
+
                         _avoidObjects.Add(new AvoidObject("Ziggs - Hexplosive Minefield (E)", "ZiggsE_red.troy", 50));
-#endif
+
                         break;
                 }
             }
