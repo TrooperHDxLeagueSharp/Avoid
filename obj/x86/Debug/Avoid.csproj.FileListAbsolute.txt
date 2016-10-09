@@ -1,0 +1,16 @@
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\Avoid.exe.config
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\Avoid.exe
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\Avoid.pdb
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\LeagueSharp.Common.dll
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\LeagueSharp.dll
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\SharpDX.dll
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\LeagueSharp.Data.dll
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\clipper_library.dll
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\LeagueSharp.Common.pdb
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\LeagueSharp.Data.pdb
+C:\Users\trooperhdx\Desktop\Avoid\bin\Debug\clipper_library.pdb
+C:\Users\trooperhdx\Desktop\Avoid\obj\x86\Debug\Avoid.csprojResolveAssemblyReference.cache
+C:\Users\trooperhdx\Desktop\Avoid\obj\x86\Debug\Avoid.exe
+C:\Users\trooperhdx\Desktop\Avoid\obj\x86\Debug\Avoid.pdb

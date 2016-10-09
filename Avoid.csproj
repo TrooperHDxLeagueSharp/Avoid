@@ -37,13 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LeagueSharp">
-      <HintPath>..\..\Downloads\References\LeagueSharp.dll</HintPath>
+      <HintPath>C:\Users\trooperhdx\Downloads\References\LeagueSharp.dll</HintPath>
     </Reference>
     <Reference Include="LeagueSharp.Common">
-      <HintPath>..\..\Downloads\References\LeagueSharp.Common.dll</HintPath>
+      <HintPath>C:\Users\trooperhdx\Downloads\References\LeagueSharp.Common.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>..\..\Downloads\References\SharpDX.dll</HintPath>
+      <HintPath>C:\Users\trooperhdx\Downloads\References\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

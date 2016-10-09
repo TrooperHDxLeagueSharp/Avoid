@@ -131,16 +131,13 @@ namespace Avoid
 
         public static void OnGameStart()
         {
-            // Check for updates
-            UpdateChecker.Initialize("TrooperHDxLeagueSharp/Avoid");
 
-#if !DEBUG
+
             // Validate that there are avoidable objects in the current matchup
             if (ObjectDatabase.AvoidObjects.Count == 0)
             {
                 return;
             }
-#endif
 
             // Listen to events
             ObjectDetector.OnAvoidObjectAdded += OnAvoidObjectAdded;
@@ -177,7 +174,7 @@ namespace Avoid
             {
                 return;
             }
-#if DEBUG
+
             foreach (var obj in ObjectManager.Get<Obj_AI_Base>())
             {
                 if (!obj.IsMe && ObjectManager.Player.Distance(obj.Position, true) < 400 * 400)
@@ -189,7 +186,7 @@ namespace Avoid
                     //Game.PrintChat("{0} ({1}): {2}", obj.BaseSkinName, obj.BoundingRadius, string.Join(" | ", obj.Buffs.Select(b => b.DisplayName)));
                 }
             }
-#endif
+
             foreach (var entry in _avoidableObjects)
             {
                 if (entry.Value.ShouldBeAvoided(entry.Key))
